@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agenda>
+	<evento>
+	<titulo>CARPACCIO DE LOMO EN COSTRA DE PIMIENTA</titulo>
+	<fecha>Beef Tenderloin Carpaccio</fecha>
+	<descripcion>Aioli de Mostaza Dijon / Wontón Crocante Dijon Mustard and Soy Aioli / Green Peppercorn - $10 USD</descripcion>
+	<foto>plato1.jpg</foto>
+	</evento>
+	<evento>
+	<titulo>ROLLOS TRADICIONALES - KANIKURIMAKI</titulo>
+	<fecha>Traditional Rolls - Kanikurimaki</fecha>
+	<descripcion>Surimi / Aguacate / Caviar Tobiko / Pepino - $8 USD</descripcion>
+	<foto>plato2.jpg</foto>
+	</evento>
+	<evento>
+	<titulo>CAMARONES CROCANTES</titulo>
+	<fecha>Fried Shrimp</fecha>
+	<descripcion>Curry Madrás /Tagliatelle de Pepino (Madras Curry / Tagliatelle Shaped Cucumber) - $15 USD</descripcion>
+	<foto>plato3.jpg</foto>
+	</evento>
+	<evento>
+	<titulo>CALAMARES FLAMBEADOS</titulo>
+	<fecha>Fried Calamari</fecha>
+	<descripcion>Salsa de Wasabi / Salsa de Maní / Salsa de Siracha (Wasabi Sauce / Peanut Sauce / Siracha) - $25 USD</descripcion>
+	<foto>plato4.jpg</foto>
+	</evento>
+	<evento>
+	<titulo>MEE KROB DE MARISCOS</titulo>
+	<fecha>Seafood Mee Krob</fecha>
+	<descripcion>Camarones / Pulpo / Calamares / Mejillones /Fideos de Arroz / Salsa de Tomate y Tamarindo (Shrimp / Octopus / Squid / Mussels / Rice Noodles /Tomato and Tamarind Sauce) - $20 USD</descripcion>
+	<foto>plato6.jpg</foto>
+	</evento>	
+	<evento>
+	<titulo>MAIZ Y PANGORA</titulo>
+	<fecha>Crab and Sweetcorn Soup</fecha>
+	<descripcion>Leche de Coco / Cebolla de Verdeo / Ají Rojo (Coconut Milk / Chili) - $20 USD</descripcion>
+	<foto>plato8.jpg</foto>
+	</evento>
+	<evento>
+	<titulo>INFUSION DE FRUTAS TROPICALES</titulo>
+	<fecha>Tropical mix flavored</fecha>
+	<descripcion>Manzana, Canela y Hierba Buena (Apple, Cinnamon and Lemongrass) - $5 USD</descripcion>
+	<foto>plato9.jpg</foto>
+	</evento>	
+</agenda>
