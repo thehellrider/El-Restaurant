@@ -7,28 +7,7 @@
     <link rel="stylesheet" href="css/jquery.mobile-1.3.2.css" />
     <script src="js/jquery.js"></script>
     <script src="js/jquery.mobile-1.3.2.js"></script>
-    <style>
-        img.fullscreen {
-            max-width:100%;
-            max-height:100%;
-        }
-        #home{
-        width:100%; height:100%;
-        background:url(img/main.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        }
-        img.thumbnail{
-            max-width:30%;
-            max-height:30%;
-        }
-        .sub{
-            font-weight:normal;
-            font-style:italic;
-        }
-    </style>
+   <link rel="stylesheet" href="css/slider.css" />  
 
 <script type="text/javascript">
 $(document).ready(function(){
@@ -67,6 +46,23 @@ catDiv.find('div[data-role=collapsible]').collapsible({theme:'c',refresh:true});
         <header data-role="header" data-position="fixed">
             <h1>Bienvenidos</h1>
         </header>
+        <div id="navigation">
+        <div class="prevbutton"><button class="button-left"><i class="fa fa-angle-left fa-2x"></i></button></div>
+        <div class="nextbutton"><button class="button-right"><i class="fa fa-angle-right fa-2x"></i></button></div>
+        </div>        
+        <div class="slides">
+          <div class="slide" style="background-image: url(img/foto1.jpg)"></div>
+          <div class="slide" style="background-image: url(img/foto2.jpg)"></div>
+          <div class="slide" style="background-image: url(img/foto3.jpg)"></div>
+          <div class="slide" style="background-image: url(img/foto4.jpg)"></div>
+        </div>      
+        <script src="js/backgroundslider.js"></script> 
+        <script>
+        $(document).ready(function(){          
+          var slideContainer = $('.slides');
+            $(".slides").BackgroundSlider();          
+        });
+        </script>
         <footer data-role="footer" data-position="fixed">
             <nav data-role="navbar">
                 <ul>
